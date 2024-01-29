@@ -34,6 +34,33 @@
 
 ## Ссылки
 
+* Для размещения ссылки достаточно поместить её в угловые скобки:
+Например: <https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-8>
+
+* Для того, чтобы оформить ссылкой часть текста используют синтаксис "[Текст]"(ссылка)".
+Например: [Синтаксис Markdown](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-8)
+
+* Чтобы добавить к этому всплывающую подсказку после ссылки через пробел в кавычках пишут название подсказки.
+Например: [Синтаксис Markdown](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-8 "Подсказка") 
+
+* Сноски оформляются в таком виде: 
+В тексте указываем:
+
+[текст][имя сноски] 
+
+В конце документа оформляем саму сноску на это указание:
+
+ [имя сноски]:[ссылка]
+
+[Текст][Код]
+
+[Код]:[https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-8]
+
+[Синтаксис Markdown][1]
+
+[1]:[https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-8]
+
+
 ## Работа с таблицами
 
 ## Цитаты
